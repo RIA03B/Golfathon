@@ -124,10 +124,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     <h1 class="w3-xxxlarge w3-text-green"><b>Corporate Sponsors</b></h1>
     <hr style="width:50px;border:5px solid green" class="w3-round">
     <?php                    
-					$server_name = "itd2.cincinnatistate.edu";
-					$username = "ryibrahim";
-					$password = "0653690";
-					$dbname = "01PHP400IbrahimR";
+					$server_name = " ";
+					$username = " ";
+					$password = " ";
+					$dbname = " ";
 
                     $conn = new mysqli($server_name, $username, $password, $dbname);
 
