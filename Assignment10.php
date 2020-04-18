@@ -12,10 +12,10 @@
 <table>
 	
                  <?php                    
-					$server_name = "itd2.cincinnatistate.edu";
-					$username = "ryibrahim";
-					$password = "0653690";
-					$dbname = "01PHP400IbrahimR";
+					$server_name = " ";
+					$username = " ";
+					$password = " ";
+					$dbname = " ";
 
                     $conn = new mysqli($server_name, $username, $password, $dbname);
 
