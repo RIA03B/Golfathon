@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+Name: Rania Ibrahim
+Class: Web Programming Online
+Abstract: Homework 4 
+Date: 9/19/2019
+-->
+<html>
+	<head>
+		<meta >
+		<title> Assignment 11.html </title>
+		<style>
+			body::before{
+			background-image:url("1935HiawathaGolfCourse640.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			}
+	
+	</style>
+	</head>
+		
+	<body>
+	
+	Name: Rania <br>
+	Class: IT-117-400<br>
+	Week 8,9,10,11 : Homework 11<br>
+	<h3>Please enter the following information.</h3>
+	<form action="process_golfers.php" method="post" >
+	
+	<table border="1">
+	<tr>
+		<td>First Name: </td>
+		<td><input type="text" name="FirstName" required value=""></td>
+	</tr>
+	<tr>
+		<td>Last Name: </td>
+		<td><input type="text" name="LastName" required value=""></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td> <input type="text" name="Address" required value=""></td>
+	</tr>
+	<tr>
+		<td>City:</td>
+		<td> <input type="text" name="City" required value=""></td>
+	</tr>
+	<tr>
+		<td>State:</td>
+		<td>
+			 <select required style="width: 100%;" name="State"value="">
+					 <option value="1">Ohio</option> 
+                     <option value="2">Kentucky</option> 
+                     <option value="3">Indiana</option> 
+        </select>	</td>
+	</tr>
+	<tr>
+		<td>Zip:</td>
+		<td> <input type="text" name="ZipCode" required value=""></td>
+	</tr>
+	<tr>
+		<td>Phone Number:</td>
+		<td> <input type="text" name="Phone" required value="" ></td>
+	</tr>
+	<tr>
+		<td>Email:</td>
+		<td> <input type="text" name="Email" required value=""> </td>
+	</tr>
+	<tr>
+		<td>Gender:</td>
+		<td>
+			<select required name="GenderID" id='GenderID' value="">
+						                         
+                           <option value="1">Male</option> 
+                           <option value="2">Female</option> 		</td>
+</select>
+	</tr>
+	<tr>
+		<td>Shirt Size:</td>
+		<td>
+			<select required name="ShirtSizeID" id='ShirtSizeID' value="">
+						                         
+                           <option value="1">Men's  X-Small</option> 
+                           <option value="2">Men's Small</option> 
+                           <option value="3">Men's Medium</option> 
+                           <option value="4">Men's Large</option> 
+                           <option value="5">Men's X-Large</option> 
+                           <option value="6">Women's X-Small</option> 
+                           <option value="7">Women's Small</option> 
+                           <option value="8">Women's Medium</option> 
+                           <option value="9">Women's Large</option> 
+                           <option value="10">Women's X-Large</option> 		</td>
+	</tr>
+	</tr>
+	</tr>
+	<tr>
+		<td>Team :</td>
+		<td>
+			<select required name="TypeofTeam" id='TypeofTeam' value="">
+						                         
+                           <option value="1">Male Varsity Golf</option> 
+                           <option value="2">Female Varsity Golf</option> 
+                           <option value="3">Male Freshman Football</option> 
+                           <option value="4">Female Freshman Basketball</option> 
+                        	</td>
+	</tr>
+	</tr>
+	<tr>
+	<td colspan = "2" align = "middle">
+				<input class="button1" style="margin-right:12px" type="submit" name = "btnSubmit" value="Submit" /><input class="button1" type="reset" name = "btnClear" value="Clear" />
+			</td>
+	</td>
+	</tr>
+	<tr>
+		<td align="center" colspan=2><a href="UpdateGolfer.php">Show Golfers in Database</a></td>
+	</tr>
+
+
+
+</table>
+</form>
+</body>
+</html>
