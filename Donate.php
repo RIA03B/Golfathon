@@ -83,7 +83,7 @@ Insert Sponsors Information!!
 			</td>
 			<td>
 				<select name="GolferID">
-				<?php 	$mysqli = new mysqli("itd2.cincinnatistate.edu", "ryibrahim", "0653690", "01PHP400IbrahimR");
+				<?php 	$mysqli = new mysqli(" ", " ", " ", " ");
 								$query= $mysqli->query("SELECT GolferID,LastName FROM Golfers"); ?>
                          <?php while ($rows = $query->fetch_array(MYSQLI_ASSOC)) {
 
@@ -156,10 +156,10 @@ $PhoneNumber	= $_POST["PhoneNumber"];
 $Email 			= $_POST["Email"];
 $StateID 		= $_POST["StateID"];
        
-$server_name = "itd2.cincinnatistate.edu";
-$username = "ryibrahim";
-$password = "0653690";
-$dbname = "01PHP400IbrahimR";
+$server_name = " ";
+$username = " ";
+$password = " ";
+$dbname = " ";
 
 $conn = new mysqli($server_name, $username, $password, $dbname);
 		
@@ -189,10 +189,10 @@ $PaymentAmount 		= $_POST["PaymentAmount"];
 $selPayment 		= $_POST["selPayment"];
 
         
-$server_name = "itd2.cincinnatistate.edu";
-$username = "ryibrahim";
-$password = "0653690";
-$dbname = "01PHP400IbrahimR";
+$server_name = " ";
+$username = " ";
+$password = " ";
+$dbname = " ";
 
 $conn = new mysqli($server_name, $username, $password, $dbname);
 		
